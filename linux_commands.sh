@@ -151,8 +151,20 @@ mount /dev/sda2 /mnt
 umount - Unmount file systems.
 umount /mnt
 ------------------------------------------------------------------------------
-
-
+$ sudo apt-get remove your_app 
+Uninstall your_app including dependent package
+If you would like to remove your_app and it's dependent packages which are no longer needed from Ubuntu,
+------------------------------------------------------------------------------
+$ sudo apt-get remove --auto-remove your_app 
+Use Purging your_app
+If you use with purge options to your_app package all the configuration and dependent packages will be removed.
+------------------------------------------------------------------------------
+$ sudo apt-get purge your_app 
+If you use purge options along with auto remove, will be removed everything regarding the package, 
+It's really useful when you want to reinstall again.
+------------------------------------------------------------------------------
+$ sudo apt-get purge --auto-remove your_app
+------------------------------------------------------------------------------
 
 
 
