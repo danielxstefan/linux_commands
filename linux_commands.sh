@@ -165,7 +165,9 @@ It's really useful when you want to reinstall again.
 ------------------------------------------------------------------------------
 $ sudo apt-get purge --auto-remove your_app
 ------------------------------------------------------------------------------
+As well for removing some installed applications, check the below link
 
+https://howtoinstall.co/package/zynaddsubfx?action=uninstall
 
 
 
