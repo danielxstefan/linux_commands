@@ -166,11 +166,14 @@ It's really useful when you want to reinstall again.
 $ sudo apt-get purge --auto-remove your_app
 ------------------------------------------------------------------------------
 As well for removing some installed applications, check the below link
-
 https://howtoinstall.co/package/zynaddsubfx?action=uninstall
+------------------------------------------------------------------------------
+Create a list with all files contained in one root folder:
+find . -type f -exec ls -lh {} \; > ~/my_files.txt && echo -e "\n\n=== Folder sizes (sorted by size) ===\n" >> ~/my_files.txt && du -h . 2>/dev/null | sort -hr >> ~/my_files.txt
 
-
-
+ls -lh ~/my_files.txt
+xdg-open ~/my_files.txt
+------------------------------------------------------------------------------
 
 
 
